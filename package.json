@@ -1,0 +1,21 @@
+{
+  "name": "lojavirtual",
+  "version": "1.0.0",
+  "description": "Loja virtual de venda de artigos femininos e gravatas.",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "loja",
+    "virtual",
+    "artigos",
+    "femininos"
+  ],
+  "author": "Andre Luis Bordignon",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

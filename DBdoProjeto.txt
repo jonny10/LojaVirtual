@@ -1,0 +1,12 @@
+create database store;
+use store;
+
+CREATE TABLE products (
+    idProduct INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    productName VARCHAR(50) NOT NULL UNIQUE,
+    productDescription VARCHAR(200) NOT NULL,
+    productCategory INT NOT NULL,
+    productUrlImage VARCHAR(200) NOT NULL,
+    productPrice DECIMAL(10 , 2 ) NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
